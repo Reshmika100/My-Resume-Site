@@ -1,36 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>My Professional Resume</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reshmika N | Resume Website</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styletrialfinal.css">
 </head>
 <body>
-
-    <div class="navbar">
-        <nav>Home | Experience | Education | Skills</nav>
-    </div>
-
-    <header id="header">
-        <h1>[Reshmika N]</h1>
-        <p>Aspiring Web Developer</p>
-    </header>
-
+  <header id="home">
     <div class="container">
-        <section class="section">
-            <h2>About Me</h2>
-            <p>I am a dedicated student learning the fundamentals of web development and CSS styling.</p>
-        </section>
+      <h1>Reshmika N</h1>
+      <p class="tagline">BBA Student | Startup Innovator | Creative Technologist</p>
 
-        <section class="section">
-            <h2>Technical Skills</h2>
-            <ul>
-                <li>HTML5 Structure</li>
-                <li>CSS3 Selectors (Class & ID)</li>
-                <li>Flexbox Layouts</li>
-            </ul>
-        </section>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
+  </header>
 
+  <main class="container">
+    <section id="about" class="section profile-section">
+      <div class="profile-grid">
+        <div class="profile-image-box">
+          <img src="pink-blazer-professional.jpg" alt="Portrait of Reshmika N" class="profile-image">
+        </div>
+
+        <div>
+          <h2>About Me</h2>
+          <p>
+            Hi, I’m Reshmika. I am currently pursuing a BBA in Digital Business and Entrepreneurship at IIM Bangalore,
+            where I connect academic learning with practical impact.
+          </p>
+          <p>
+            Beyond the classroom, I am a startup innovator, founding Autogrind and leading the creative vision at Sri Rang Bhumi.
+            I also work across digital creation as an aspiring web developer, video editor, and graphic designer.
+          </p>
+          <p>
+            I am deeply inspired by Indian scriptures, architecture, traditional art, and Carnatic music. I enjoy experimenting,
+            learning quickly, and building ideas that combine creativity, purpose, and innovation.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <h2>Education</h2>
+
+      <div class="card">
+        <h3>IIM Bangalore</h3>
+        <p><em>BBA in Digital Business and Entrepreneurship</em></p>
+        <p>Currently pursuing my degree with a focus on bridging business theory and real-world entrepreneurial execution.</p>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+
+      <table>
+        <tr>
+          <th>Category</th>
+          <th>Details</th>
+        </tr>
+        <tr>
+          <td>Business</td>
+          <td>Entrepreneurship, Startup Thinking, Management, Communication</td>
+        </tr>
+        <tr>
+          <td>Creative</td>
+          <td>Graphic Design, Video Editing, Branding, Content Creation</td>
+        </tr>
+        <tr>
+          <td>Technical</td>
+          <td>HTML, CSS, JavaScript, Web Design Basics</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+
+      <div class="card-grid">
+        <div class="card">
+          <h3>Autogrind</h3>
+          <p>A startup initiative focused on building innovative solutions with business and creative strategy.</p>
+        </div>
+
+        <div class="card">
+          <h3>Sri Rang Bhumi</h3>
+          <p>Creative leadership and vision building for a platform rooted in art, culture, and storytelling.</p>
+        </div>
+
+        <div class="card">
+          <h3>Resume Website</h3>
+          <p>A personal portfolio website built using HTML, CSS, and JavaScript to showcase my profile and work.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <h2>Experience</h2>
+
+      <div class="card">
+        <h3>Founder - Autogrind</h3>
+        <p>Working on startup development, idea creation, and execution with a focus on innovation and impact.</p>
+      </div>
+
+      <div class="card">
+        <h3>Creative Vision Lead - Sri Rang Bhumi</h3>
+        <p>Contributing to brand identity, visual communication, and creative direction.</p>
+      </div>
+    </section>
+
+    <section id="achievements" class="section">
+      <h2>Achievements</h2>
+
+      <ul class="achievement-list">
+        <li>Building entrepreneurial experience while pursuing academics</li>
+        <li>Developing creative and digital skills across multiple domains</li>
+        <li>Leading and contributing to innovation-driven projects</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+
+      <div class="card">
+        <p><strong>Email:</strong> your-email@example.com</p>
+        <p><strong>Phone:</strong> +91 XXXXX XXXXX</p>
+        <p><strong>Location:</strong> India</p>
+        <p><strong>LinkedIn:</strong> your-linkedin-link</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Reshmika N. All rights reserved.</p>
+  </footer>
+
+  <script src="scripttrial.js"></script>
 </body>
 </html>
